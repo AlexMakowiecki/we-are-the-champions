@@ -7,9 +7,10 @@ I used HTML, CSS, Javascript, Firebase and one image.
 ## Concepts learned from this project
 - You can push objects to the Firebase database, without changing its format. 
 ## Preview 
-<img style="text-align:center" src="https://github.com/AlexMakowiecki/unit-converter/assets/122258496/b850091f-3650-4658-aeff-b1c18d2847a7" width="500"/> 
+<img src="https://github.com/AlexMakowiecki/we-are-the-champions/assets/122258496/3f3a1421-5e2f-4020-a712-1cbe939d14d4" width="500px"/> 
 
 ## About Scrimba
+
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
 If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
