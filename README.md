@@ -1,52 +1,11 @@
-# Shopping List Mobile App
+# We are the champions
 ## What is it? 
-It's a website that lets you add shopping products to a list, that is connected to a Firebase database. This website also uses app manifest to look like an app on phones. 
-It's also the seventh project, part of the Scrimba Course, that I've uploaded to Github. This project is part of module 3, where they teach you how to use Javascript.
+It's a website that lets you endorse someone with a positive comment! You have 3 inputs: the comment, from whom, and to whom. You can also see the comments uploaded by other people.
+The website uses the Firebase database to store and retrieve the comments. This website is also the eighth project, and fifth SOLO project, part of the Scrimba Course, that I've uploaded to Github. This project is part of module 3, where they teach you how to use Javascript.
 ## What did I use?
-I used HTML, CSS, Javascript, Firebase, manifest.json, and multiple types of images.
-## Concepts learned for this project and practiced during it
-- **import** statement, to import function into your code.
-  - ```Javascript
-      import { functionName } from "route"
-    ```
-- **__FireBase__**: A service provided by Google to create and manage databases in a more friendly way.
-  - **initializeApp()** to get started with FireBase. Connect with a URL passed as an argument.
-    - ```Javascript
-        initializeApp( { databaseURL: "databaseURL" } )
-      ```
-  - **getDatabase()** to connect with the database. You have to pass the variable where you stored the initializeApp() result.
-    - ```Javascript
-        getDatabase( initializeAppObject )
-      ```
-  - **ref()** to reference (connect to) a value inside the database. You have to pass the variable where you stored the getDatabase() result and the name of the reference.
-    - ```Javascript
-        ref( getDatabaseObject, "referenceName" )
-      ```
-  - **push()** to send a value to store in the database. You have to pass the variable where you stored the ref() result and the value.
-    - ```Javascript
-        push( refObject, value )
-      ```
-  - **onValue()** to listen to changes in the database, and call a function when the changes occur. You have to pass the variable where you stored the ref() result and the function, with a parameter, that will be called.
-    - ```Javascript
-        onValue( refObject, function( parameter ){ console.log( parameter ) }) 
-      ```
-  - **snapshot:** the parameter of the onValue() function, and the information that the database sends to us.
-    - `snapshot.val():` the content of the reference, stored as an object. Here are stored the values and the IDs associated with them. 
-    - `snapshot.exist():` to know if a reference exists (has values stored inside) or not
-  - **ID:** a random string sequence associated with the values stored in the database
-  - **remove()** to remove elements of the database. You have to pass the exact location of the element 
-    - ```Javascript
-        remove( ref( getDatabaseObject, "containerName/itemID") )
-      ```
-- **Object to array:** Object methods to transform objects to array format.
-  - `Object.values()` `Object.keys()` `Object.entries()`
-- **createElement()** method, to create HTML elements. You have to pass the HTML element you want to create in the argument
-- **flex-wrap** CSS property, to let the items of the container wrap when they don't fit in it.
-- **gap** CSS property, to create a gap between the flexbox items, like margin.
-- **user-select** CSS property, to disable selection for elements in the document.
-- **meta** HTML tag, in this case to **modify the viewport** for mobile-devices
-- **favicons** to add an image in the website tab
-- **Web Application Manifest** to make web apps look like native phone apps.
+I used HTML, CSS, Javascript, Firebase and one image. 
+## Concepts learned from this project
+- You can push objects to the Firebase database, without changing its format. 
 ## Preview 
 <img style="text-align:center" src="https://github.com/AlexMakowiecki/unit-converter/assets/122258496/b850091f-3650-4658-aeff-b1c18d2847a7" width="500"/> 
 
